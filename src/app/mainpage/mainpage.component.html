@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="mainpage.component.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Nav bar -->
+    <header>
+        <a href="#" class="logo">
+            <img src="assets/img/fav-icon-removebg-preview.png" alt="">
+        </a>
+        <!-- Menu icon -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!-- links -->
+        <ul class="navbar">
+            
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+         </ul>
+         <!-- user tool -->
+         <ul class="usertool">
+                <!-- login button -->
+            <i class='bx bx-user-circle'></i>
+            <!-- cart button -->
+            <i class='bx bx-cart'></i>
+         </ul>
+            
+           
+         
+          <!-- searchbox -->
+          <div class="search-box">
+            <input type="search" name="" id="" placeholder="Find Products...">
+         </div>
+
+                 
+         
+         
+    </header>
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>Start your energetic day with <br> with a coffee</h1>
+                <p>Old Town Road Coffee</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>            
+            <div class="home-img">
+                <img src="assets/img/cafe-take-away-3-removebg-preview.png" alt="">
+            </div>
+
+
+
+        </section>
+        <!-- about -->
+        <section class="about" id="about">
+           
+            <div class="about-text">
+                <h2>Our story</h2>
+                <p>The journey to get the best quality</p>
+                <p>From the old town road to the modern city</p>
+                <p>We bring customers the best experience of enjoying coffee</p>
+                <a routerLink="/about" class="btn">Learn More</a>
+            </div>
+            <div class="about-img">
+                <img src="assets/img/oldtownroad.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="products" id="products">
+            <div class="heading">
+                <h2>Our popular products</h2>
+            </div>
+            <!-- Container -->
+            <div class="products-container">
+                <div class="box">
+                    <img src="assets/img/matcha1-removebg-preview.png" alt="">
+                    <h3>Matcha latte</h3>
+                    <div class="content">
+                        <span>$5</span>
+                        <a href="#">Add to Cart</a>
+                        </div>
+                </div> 
+
+
+                <div class="box">
+                    <img src="assets/img/ca-phe-Americano-1-removebg-preview.png" alt="">
+                    <h3>Americano Pure</h3>
+                    <div class="content">
+                        <span>$3</span>
+                        <a href="#">Add to Cart</a>
+                        </div>
+                </div> 
+
+
+                <div class="box">
+                    <img src="assets/img/bac-xiu-ca-phe-da-giao-hang-online-10-removebg-preview.png" alt="">
+                    <h3>Fainted Silver</h3>
+                    <div class="content">
+                        <span>$25</span>
+                        <a href="#">Add to Cart</a>
+                        </div>
+                </div> 
+
+                <div class="box">
+                    <img src="assets/img/frappes-removebg-preview.png" alt="">
+                    <h3>Almond Freeze Coffee</h3>
+                    <div class="content">
+                        <span>$5</span>
+                        <a href="#">Add to Cart</a>
+                        </div>
+                </div> 
+
+                <div class="box">
+                    <img src="assets/img/p5.png" alt="">
+                    <h3>Old Town Road's Pure Coffee 1</h3>
+                    <div class="content">
+                        <span>$25</span>
+                        <a href="#">Add to Cart</a>
+                        </div>
+                </div> 
+
+                <div class="box">
+                    <img src="assets/img/p6.png" alt="">
+                    <h3>Old Town Road's Pure Coffee 2</h3>
+                    <div class="content">
+                        <span>$25</span>
+                        <a href="#">Add to Cart</a>
+                        </div>
+                </div> 
+            </div>
+
+        </section>
+
+            <!-- Customer -->
+            <section class="cutomers" id="customers">
+                <div class="heading">
+                    <h2>
+                        Our Customer's
+                    </h2>
+                </div>
+                <div class="customers-container">
+                    <div class="box">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                        <p>أنا حقًا أحب منتجات هذا المتجر ، فهي تدفعني إلى الجنون بمجرد أن أستهلك منتجاتها ، أراهن على كأس العالم وفقدت كل شيء</p>
+                        <h2>Sena Truong</h2>
+                        <img src="assets/img/emtusela.jpg" alt="">
+                    </div>
+
+                    <div class="box">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                        <p>coffe good me like alot me drink coffe me happy</p>
+                        <h2>Sir Pretty AwesomeCorn</h2>
+                        <img src="assets/img/khabanh.jpg" alt="">
+                    </div>
+
+                    <div class="box">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                        <p>En tant que français, j'apprécie vraiment ces produits à base de café. Vous devriez l'acheter et l'essayer vous-même, je vous garantis que cela ne gaspillera pas votre argent</p>
+                        <h2>Printemps Huan Rose Fleurs</h2>
+                        <img src="assets/img/huan-66.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+        <section class="footer">
+            <div class="footer-box">
+                <h2>Old Town Road</h2>
+                <p>Coffee for Chads!</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/cutz.ngryen.122002/"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.youtube.com/"><i class='bx bxl-tiktok'></i></a>
+                    <a href="https://www.instagram.com/championash.17/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.google.com/intl/vi/gmail/about/"><i class='bx bxl-gmail'></i></a>
+                </div>
+            </div>
+                <div class="footer-box">
+                    <h3>Support</h3>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Help and Support</a></li>
+                    <li><a href="">Return Policy</a></li>
+                    <li><a href="">Terms Of Use</a></li>
+                    <li><a href="">Shipping</a></li>
+                </div>
+                <div class="footer-box">
+                    <h3>View Guides</h3>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Blog Posts</a></li>
+                    <li><a href="">Our Branches</a></li>
+                </div>
+        
+            <div class="footer-box">
+                <div class="contact">
+                    <span><i class='bx bx-map'></i>1 Dragon Border, Dragon Rise</span>
+                    <span><i class='bx bx-phone'></i>+666 36 29</span>
+                    <span><i class='bx bxs-envelope'></i>kingOfDragonBorderHood@gmail.com</span>
+                </div>
+            </div>
+        </section>            
+<!-- copyright -->
+            <div class="copyright">
+                <p>
+                  &#169; Cutz All Right Reserved
+                </p>
+            </div>
+         
+
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+</body>
+</html>
