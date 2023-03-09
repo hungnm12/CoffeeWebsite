@@ -88,9 +88,10 @@ header.shadow{
         display: flex;
         align-items: center;
         justify-content:space-around;
+        column-gap: 2rem;
     }
 .usertool .bx{
-    font-size: 22px;
+    font-size: 40px;
     cursor: pointer;
     z-index: 10000;
     display: flex;
